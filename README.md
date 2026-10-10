@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Vincent's /compact Killer" width="100%">
+  <img src="assets/banner.svg" alt="Memento | Vincent's /compact Killer" width="100%">
 </p>
 
-<h1 align="center">Vincent's /compact Killer</h1>
+<h1 align="center">Memento <sub>| Vincent's /compact Killer</sub></h1>
 
 <p align="center">
   <b>Say it once. Your coding agent remembers, feature by feature.</b><br>
@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="#-the-problem">Problem</a> ·
-  <a href="#-compact-vs-compact-killer">Comparison</a> ·
+  <a href="#%EF%B8%8F-compact-vs-memento">Comparison</a> ·
   <a href="#-how-it-works">How it works</a> ·
   <a href="#-quick-start">Quick start</a> ·
   <a href="#-why-it-costs-less">Cost</a> ·
@@ -37,12 +37,16 @@ keeps the *topic* and drops the *verdict*, so you end up saying the same things 
 > *"The name goes in the header. I told you twice."*
 > *"Don't rename that field, we found out why last week."*
 
-**/compact Killer** gives each feature a short file the agent reads before it starts and
+**Memento** gives each feature a short file the agent reads before it starts and
 writes to the moment something is settled. Nothing settled gets lost between sessions.
+
+> **Why "Memento"?** Latin for *"remember!"*. And, like the film, it is about someone who
+> cannot form new memories and survives on the notes they leave themselves. That is your
+> coding agent, every new session.
 
 <br>
 
-## ⚔️ /compact vs /compact Killer
+## ⚔️ /compact vs Memento
 
 Three moments from a real feature build, and what survives each approach.
 
@@ -77,7 +81,7 @@ Three moments from a real feature build, and what survives each approach.
   </tbody>
 </table>
 
-| | `/compact` | Plain handoff note | **/compact Killer** |
+| | `/compact` | Plain handoff note | **Memento** |
 |---|:---:|:---:|:---:|
 | You control what is kept | ❌ | ✅ | ✅ |
 | Survives the session | ❌ | ✅ | ✅ |
@@ -162,11 +166,11 @@ Full files: [`rankings.md`](docs/features/rankings.md), [`profile.md`](docs/feat
 **1. Get the files.** From your project root:
 
 ```bash
-git clone --depth 1 https://github.com/vincent-caetano/vincents-compact-Killer /tmp/compact-killer
+git clone --depth 1 https://github.com/vincent-caetano/memento-vincents-compact-killer /tmp/memento
 ```
 
 ```bash
-mkdir -p .claude/skills docs/features && cp -R /tmp/compact-killer/.claude/skills/handoff .claude/skills/ && cp /tmp/compact-killer/docs/features/{README.md,_TEMPLATE.md,INDEX.md} docs/features/
+mkdir -p .claude/skills docs/features && cp -R /tmp/memento/.claude/skills/handoff .claude/skills/ && cp /tmp/memento/docs/features/{README.md,_TEMPLATE.md,INDEX.md} docs/features/
 ```
 
 **2. Teach your agent.** Paste [`snippets/CLAUDE.md`](snippets/CLAUDE.md) into your
